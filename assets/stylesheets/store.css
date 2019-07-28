@@ -1,0 +1,74 @@
+body {
+  background-color: rgba(252,236,221, 1);
+  opacity: 100%;
+  margin: 50px 50px 50px 50px;
+}
+
+  h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 72px;
+    letter-spacing: 10px;
+    text-align: right;
+    padding-top: 100px;
+    padding-right: 50px;
+  }
+
+  h2 {
+    font-family: 'EB Garamond', serif;
+    font-size: 64px;
+    letter-spacing: 5px;
+  }
+
+  h3 {
+    font-family: 'EB Garamond', serif;
+    font-size: 48px;
+    letter-spacing: 5px;
+  }
+
+  h4 {
+    font-family: 'EB Garamond', serif;
+    font-size: 36px;
+    letter-spacing: 5px;
+  }
+
+  h5 {
+    font-family: 'EB Garamond', serif;
+    font-size: 24px;
+    letter-spacing: 5px;
+  }
+
+  h6 {
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    letter-spacing: 5px;
+  }
+
+  p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    letter-spacing:normal;
+  }
+
+.column {
+  float: left;
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}

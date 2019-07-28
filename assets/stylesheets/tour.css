@@ -1,0 +1,93 @@
+body {
+  background-color: rgba(252,236,221, 1);
+  opacity: 100%;
+  margin: 50px 50px 50px 50px;
+}
+
+  h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 72px;
+    letter-spacing: 10px;
+    text-align: right;
+    padding-top: 100px;
+    padding-right: 50px;
+  }
+
+  h2 {
+    font-family: 'EB Garamond', serif;
+    font-size: 64px;
+    letter-spacing: 5px;
+  }
+
+  h3 {
+    font-family: 'EB Garamond', serif;
+    font-size: 48px;
+    letter-spacing: 5px;
+  }
+
+  h4 {
+    font-family: 'EB Garamond', serif;
+    font-size: 36px;
+    letter-spacing: 5px;
+  }
+
+  h5 {
+    font-family: 'EB Garamond', serif;
+    font-size: 24px;
+    letter-spacing: 5px;
+  }
+
+  h6 {
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    letter-spacing: 5px;
+  }
+
+  p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    letter-spacing:normal;
+  }
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+a:link {
+  text-decoration:none;
+  color:rgba(108,69,69,1);
+}
+
+.button {
+  display: block;
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: white;
+  color: grey;
+}
