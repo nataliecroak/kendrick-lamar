@@ -1,0 +1,80 @@
+html {
+  background: url(../images/pointing-final.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'EB Garamond', serif;
+  font-size: 72px;
+  color: white;
+  letter-spacing: 10px;
+  padding-top: 400px;
+  padding-left: 100px;
+}
+
+h2 {
+  font-family: 'EB Garamond', serif;
+  font-size: 64;
+  letter-spacing: 5px;
+}
+
+h3 {
+  font-family: 'EB Garamond', serif;
+  font-size: 48;
+  letter-spacing: 5px;
+}
+
+h4 {
+  font-family: 'EB Garamond', serif;
+  font-size: 36;
+  letter-spacing: 5px;
+}
+
+h5 {
+  font-family: 'EB Garamond', serif;
+  font-size: 24;
+  letter-spacing: 5px;
+}
+
+h6 {
+  font-family: 'EB Garamond', serif;
+  font-size: 18;
+  letter-spacing: 5px;
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14;
+  letter-spacing:normal;
+}
+
+nav {
+  font-family: 'EB Garamond', serif;
+  font-size: 36;
+  letter-spacing: 5px;
+  text-align: right;
+  padding-top: 25px;
+  padding-right: 100px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  background-color: rgba(229,229,229, 1);
+}
+
+#header{
+  margin-right: 5px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.image-responsive {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-image: url(".kendrick-lamar/assets/images/pointing-final.jpg");
+  z-index: auto;
+}
