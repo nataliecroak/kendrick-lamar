@@ -50,25 +50,3 @@ p {
   font-size: 14px;
   letter-spacing: normal;
 }
-
-#square-image img {
-  position: relative;
-  float: left;
-  width: 286px;
-  height: 339px;
-  padding-right: 50px;
-}
-
-#tall-image img {
-  position: relative;
-  float: left;
-  width: 286px;
-  height: 512px;
-}
-
-#small-image img {
-  position: relative;
-  float: left;
-  width: 286px;
-  height: 147px;
-}

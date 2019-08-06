@@ -51,14 +51,7 @@ p {
 
 .column {
   float: left;
-}
-
-.left, .right {
-  width: 25%;
-}
-
-.middle {
-  width: 50%;
+  width: 33.33%
 }
 
 .row:after {
