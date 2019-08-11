@@ -39,6 +39,7 @@ h5 {
   font-family: 'EB Garamond', serif;
   font-size: 24px;
   letter-spacing: 5px;
+  padding-bottom: 10px;
 }
 
 h6 {
@@ -86,11 +87,6 @@ a:active {
   text-decoration: none;
   color: rgba(108, 69, 69, 1);
 }
-/* #right_plane{
-  position: relative;
-  float: right;
-  text-align: right;
-} */
 
 #buy {
   display: block;
@@ -102,7 +98,7 @@ a:active {
   font-family: 'Roboto Mono', monospace;
   font-size: 14px;
   letter-spacing: normal;
-  margin: 10px 2px;
+  margin: 5px 2px;
   cursor: pointer;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;

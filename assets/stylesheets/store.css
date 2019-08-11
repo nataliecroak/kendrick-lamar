@@ -39,6 +39,7 @@ h5 {
   font-family: 'EB Garamond', serif;
   font-size: 24px;
   letter-spacing: 5px;
+  padding-bottom: 10px;
 }
 
 h6 {
@@ -55,7 +56,7 @@ p {
 
 .column {
   float: left;
-  width: 33.33%
+  width: 33.33%;
 }
 
 .row:after {
@@ -93,6 +94,7 @@ p {
 
 .container {
   overflow: hidden;
+  /* width: 33.33% */
 }
 
 .filterDiv {
@@ -131,16 +133,13 @@ p {
   color: white;
 }
 
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
   width: 318px;
   height: 293px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px;
 }
 
-/* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -149,12 +148,10 @@ p {
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
@@ -162,7 +159,6 @@ p {
   backface-visibility: hidden;
 }
 
-/* Style the back side */
 .flip-card-back {
   transform: rotateY(180deg);
 }
