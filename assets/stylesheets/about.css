@@ -15,8 +15,11 @@ h1 {
   font-size: 72px;
   letter-spacing: 10px;
   text-align: right;
+  margin-bottom: 50px;
   padding-top: 100px;
   padding-right: 50px;
+  text-decoration: underline;
+  text-decoration-color: white;
 }
 
 h2 {
