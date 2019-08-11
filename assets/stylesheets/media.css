@@ -12,8 +12,11 @@ h1 {
   font-size: 72px;
   letter-spacing: 10px;
   text-align: right;
+  margin-bottom: 50px;
   padding-top: 100px;
   padding-right: 50px;
+  text-decoration: underline;
+  text-decoration-color: white;
 }
 
 h2 {
@@ -56,6 +59,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  overflow: hidden;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -72,9 +76,9 @@ p {
 }
 
 .column iframe {
+  display: flex;
   margin-top: 5px;
   vertical-align: middle;
-  width: 100%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -90,5 +94,11 @@ p {
   .column {
     flex: 100%;
     max-width: 100%;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
 }

@@ -53,22 +53,32 @@ nav {
   font-size: 36;
   letter-spacing: 5px;
   text-align: right;
+  text-decoration: none;
+  color: black;
   padding-top: 25px;
   padding-right: 100px;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-a:hover, a:active {
-  background-color: rgba(229, 229, 229, 1);
 }
 
 #header {
   margin-right: 5px;
   margin-left: 5px;
   text-align: center;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
 }
 
 .image-responsive {
