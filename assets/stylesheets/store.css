@@ -39,13 +39,14 @@ h5 {
   font-family: 'EB Garamond', serif;
   font-size: 24px;
   letter-spacing: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 h6 {
   font-family: 'EB Garamond', serif;
   font-size: 18px;
   letter-spacing: 5px;
+  padding-bottom: 5px;
 }
 
 p {
@@ -57,6 +58,7 @@ p {
 .column {
   float: left;
   width: 33.33%;
+  grid-template-rows: max-content;
 }
 
 .row:after {
@@ -90,11 +92,6 @@ p {
 #buy:hover {
   background-color: white;
   color: grey;
-}
-
-.container {
-  overflow: hidden;
-  /* width: 33.33% */
 }
 
 .filterDiv {
@@ -161,4 +158,10 @@ p {
 
 .flip-card-back {
   transform: rotateY(180deg);
+}
+
+.container {
+  max-width: 318px;
+  margin-bottom: 25px;
+  grid-template-rows: max-content;
 }
