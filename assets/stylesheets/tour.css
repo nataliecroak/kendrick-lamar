@@ -57,6 +57,7 @@ p {
 .column {
   float: left;
   width: 25%;
+  maring-left: 50px;
   column-fill: balance;
   flex-wrap: wrap;
 }
@@ -107,4 +108,28 @@ a:active {
 #buy:hover {
   background-color: white;
   color: grey;
+}
+
+.topnav a {
+  font-family: 'EB Garamond', serif;
+  font-size: 24px;
+  letter-spacing: 5px;
+  text-align: right;
+  text-decoration: none;
+  color: black;
+  padding-top: 25px;
+  padding-left: 50px;
+  float: left;
+}
+
+.topnav-right a {
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+  letter-spacing: 5px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  padding-top: 35px;
+  margin-right: 50px;
+  float: right;
 }
